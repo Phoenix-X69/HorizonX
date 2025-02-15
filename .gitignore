@@ -1,2 +1,19 @@
-*.rbc
-*.fyc
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+*.log
+*.cache
+
+# Ignore Node.js dependencies (if using Node.js)
+node_modules/
+package-lock.json
+
+# Ignore environment files (for security)
+.env
+config.json
+
+# Ignore deployment files
+dist/
+build/
